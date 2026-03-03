@@ -1,1 +1,67 @@
-村上　聖奈
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Self Introduction</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Segoe UI", sans-serif;
+      color: white;
+    }
+
+    .card {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 40px 60px;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 0 20px cyan;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    h1 {
+      font-size: 2.8em;
+      letter-spacing: 3px;
+      margin-bottom: 10px;
+      color: #00ffff;
+    }
+
+    p {
+      font-size: 1.2em;
+      line-height: 1.8;
+    }
+
+    .line {
+      width: 80px;
+      height: 3px;
+      background: cyan;
+      margin: 15px auto 25px auto;
+    }
+
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+      100% { transform: translateY(0px); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>村上 聖奈</h1>
+    <div class="line"></div>
+    <p>
+      はじめまして。<br>
+      HTMLとデザインを勉強中です。<br>
+      クールで分かりやすいページを作るのが目標です。<br>
+      よろしくお願いします。
+    </p>
+  </div>
+
+</body>
+</html>
