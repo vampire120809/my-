@@ -7,46 +7,50 @@
     body {
       margin: 0;
       height: 100vh;
-      background: linear-gradient(135deg, #f8cdda, #fbd3e9, #fce4ec);
+      background: linear-gradient(135deg, #f3d1dc, #e5e5e5, #d6c6b8);
       display: flex;
       justify-content: center;
       align-items: center;
-      font-family: "Segoe UI", sans-serif;
-      color: #444;
+      font-family: "Arial Rounded MT Bold", "Segoe UI", sans-serif;
+      color: #5a5a5a;
     }
 
     .card {
-      background: rgba(255, 255, 255, 0.85);
+      background: rgba(255, 255, 255, 0.9);
       padding: 40px 60px;
-      border-radius: 25px;
+      border-radius: 28px;
       text-align: center;
-      box-shadow: 0 0 20px #f8a5c2;
+      box-shadow: 0 0 20px #c8b6a6;
       animation: float 3s ease-in-out infinite;
     }
 
     h1 {
-      font-size: 2.8em;
+      font-size: 2.6em;
       letter-spacing: 3px;
       margin-bottom: 10px;
-      color: #f78fb3;
+      color: #b5838d;
     }
 
     p {
-      font-size: 1.2em;
-      line-height: 1.8;
+      font-size: 1.1em;
+      line-height: 1.9;
     }
 
     .line {
-      width: 80px;
-      height: 3px;
-      background: #f78fb3;
+      width: 70px;
+      height: 4px;
+      background: #b7a99a;
       margin: 15px auto 25px auto;
       border-radius: 10px;
     }
 
+    .heart {
+      color: #b5838d;
+    }
+
     @keyframes float {
       0% { transform: translateY(0px); }
-      50% { transform: translateY(-8px); }
+      50% { transform: translateY(-6px); }
       100% { transform: translateY(0px); }
     }
   </style>
@@ -60,7 +64,7 @@
       はじめまして。<br>
       ダンスが大好きです。<br>
       楽しいことに全力で取り組むタイプです。<br>
-      よろしくお願いします。
+      よろしくお願いします <span class="heart">♡</span>
     </p>
   </div>
 
